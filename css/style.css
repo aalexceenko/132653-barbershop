@@ -1,0 +1,18 @@
+.breadcrumbs h1 {
+	font-size: 30px;
+	line-height: 42px;
+	color: #000000;
+	font-weight: narrowbold;
+	font-family: "PTSans narrowbold";
+}
+.manufacturer h2 {
+	font-size: 24px;
+	line-height: 30px;
+	color: #000000;
+	font-weight: narrowbold;
+	font-family: "PTSans narrowbold";
+}
+.body {
+	font-size: 12px;
+    line-height: 16px;
+}
