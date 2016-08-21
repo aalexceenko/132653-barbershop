@@ -14,32 +14,28 @@
 	line-height: 30px;
 }
 body {
-  min-width: 1122px;
-  margin: 0;
-  padding: 0;
+	min-width: 1122px;
+	margin: 0;
+	padding: 0;
 }
-
 .clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
-
 .container {
-  width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
 }
-
 .main-header {
-  margin-bottom: 60px;
+	margin-bottom: 60px;
 }
-
 .main-navigation {
-  float: left;
-  width: 780px;
-  min-height: 70px;
-  outline: 1px dashed black;
+	float: left;
+	width: 780px;
+	min-height: 70px;
+	outline: 1px dashed black;
 }
 .user-block {
 	float: right;
@@ -67,7 +63,6 @@ body {
 }
 .filter-button {
 	margin-top: 60px;
-
 }
 .right-colum {
 	float: right;
@@ -95,28 +90,25 @@ body {
 	margin-left: 240px;
 }
 .main-footer {
-  margin-top: 50px;
-  padding-bottom: 40px;
-  padding-top: 60px;
+	margin-top: 50px;
+	padding-bottom: 40px;
+	padding-top: 60px;
 }
-
 .footer-contacts {
-  float: left;
-  width: 320px;
-  margin-right: 60px;
-  min-height: 90px;
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+	min-height: 90px;
 }
-
 .footer-social {
-  float: left;
-  width: 180px;
-  min-height: 90px;
+	float: left;
+	width: 180px;
+	min-height: 90px;
 }
-
 .footer-copyright {
-  float: right;
-  width: 180px;
-  min-height: 90px;
+	float: right;
+	width: 180px;
+	min-height: 90px;
 }
 .main-footer section {
 	padding-bottom: 30px;
