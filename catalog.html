@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-		<link href="css/style.css" rel="stylesheet">
 		<meta charset="utf-8">
+		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic" rel="stylesheet">
 		<title>Средства для ухода</title>
 	</head>
 	<body>
@@ -10,6 +12,9 @@
 			<div class="container clearfix">
 				<nav class="main-navigation">
 					<ul>
+						<li>
+							<a href="#"><img src="img/Logo.png"></a>
+						</li>
 						<li>
 							<a href="#">Информация</a>
 						</li>
@@ -36,11 +41,11 @@
 				<h1>Средства для ухода</h1>
 				<a href="#">Главная</a>
 				<a href="#">Магазин</a>
-				<a href="#">Средства для ухода</a>
+				<a class="breadcrumbs-active" href="#">Средства для ухода</a>
 			</div>
 			<form action="#" method="get" class="filter">
 				<div class="manufacturer-filter">
-					<h2 class="manufacturer">Производители:</h2>
+					<h2>Производители:</h2>
 					<input type="checkbox" name="baxter" id="baxter" checked>
 					<label for="baxter">baxter of california</label><br>
 					<input type="checkbox" name="mr-natty" id="mr">
@@ -65,10 +70,10 @@
 				</div>
 				<input type="submit" value="Показать" class="filter-button">
 			</form>
-			<div class="right-colum">
+			<div class="right-colum clearfix">
 				<article class="for-travel">
 					<img src="img/california1.jpg" width="220" height="165" alt="Набор для путешествий">
-					<a href="#">Набор для путешествий "Baxter of california"</a>
+					<a href="catalog_for_travel.html">Набор для путешествий "Baxter of california"</a>
 					<p>2 900 руб</p>
 					<button>Купить</button>
 				</article>
@@ -80,7 +85,7 @@
 				</article>
 				<article class="for-hair">
 					<img src="img/gel suavecito.jpg" width="220" height="165" alt="Гель для волос 'Suavecito' ">
-					<a href="#">Гель для волос "Suavecito"</a>
+					<a href="#">Гель для волос <br>"Suavecito"</a>
 					<p>290 руб</p>
 					<button>Купить</button>
 				</article>
