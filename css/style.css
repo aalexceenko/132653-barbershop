@@ -53,6 +53,9 @@ body {
 	font-size: 16px;
 	line-height: 20px;
 }
+.li-shop {
+	box-shadow: inset 0px -5px 0px 0 #ffffff;
+}
 .main-navigation a {
 	display: block;
 	padding: 25px 20px;
@@ -139,6 +142,7 @@ body {
 }
 .breadcrumbs a:last-child::after {
 	display: none;
+	pointer-events: none;
 }
 .breadcrumbs a:first-child {
 	padding-left: 0px; 
@@ -170,25 +174,60 @@ body {
 .manufacturer-filter label {
 	 position: relative;
     cursor: pointer;
+        position: relative;
+    cursor: pointer;
+    margin-bottom: 9px;
+    padding-left: 34px;
+    display: inline-block;
+    vertical-align: top;
 }
 .manufacturer-filter label::before {
 	content: "";
     position: absolute;
     top: 0;
-    left: -44px;
+    left: -5px;
     z-index: 1;
     width: 20px;
     height: 20px;
     border: 2px solid #000101;
+    box-sizing: border-box;
 }
 .manufacturer-filter input[type="checkbox"] {
     display: none;
 }
-.manufacturer-filter input[type="checkbox"]:checked ~ label::before {
-	background: url("../img/spritesheet.png.png") no-repeat;
-	background-position: -5px -5px;
+.manufacturer-filter input[type="checkbox"]:checked + label::before {
+	background: url("../img/spritesheet.png") no-repeat;
+	background-position: -3px -3px;
 }
-
+.groups-products-filter label {
+	 position: relative;
+    cursor: pointer;
+        position: relative;
+    cursor: pointer;
+    margin-bottom: 9px;
+    padding-left: 34px;
+    display: inline-block;
+    vertical-align: top;
+}
+.groups-products-filter label::before {
+	content: "";
+    position: absolute;
+    top: 0;
+    left: -5px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000101;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.groups-products-filter input[type="radio"] {
+    display: none;
+}
+.groups-products-filter input[type="radio"]:checked + label::before {
+	background: url("../img/spritesheet.png") no-repeat;
+	background-position: -23px -1px;
+}
 .filter-button {
 	margin-top: 50px;
 	width: 114px;
@@ -298,6 +337,7 @@ body {
 	height: 190px;
 	padding-top: 60px;
 	background: #232323;
+	box-sizing: border-box;
 
 }
 .footer-contacts {
@@ -383,13 +423,14 @@ body {
 	width: 461px;
 	height: 670px;
 	float: left;
+	font-size: 0;
 }
 .image img {
 	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 .image img:nth-child(3) {
-	margin-right: 15px;
-	margin-left: 15px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 .info {
 	padding-top: 20px;
