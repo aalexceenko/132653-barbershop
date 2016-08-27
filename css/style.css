@@ -77,6 +77,9 @@ body {
 .user-block:hover {
 	background: #242424;
 }
+.user-block:hover .login::before {
+	color: #ffffff;
+}
 .login {
 	position: relative;
 	display: inline-block;
@@ -98,19 +101,8 @@ body {
 	background: url("../img/sprite.png") no-repeat;
 	background-position: -15px -15px;
 	opacity: 0.3;
+	color: #484848;
 }
-/*.login:hover{
-	content: "";
-	position: absolute;
-	top: 28px;
-	left: 20px;
-	width: 18px;
-	height: 18px;
-	background: url("../img/sprite.png") no-repeat;
-	background-position: -15px -15px;
-	
-}*/
-
 .breadcrumbs {
 	margin-bottom: 55px;
 }
